@@ -2,26 +2,133 @@ body {
     margin: 20% auto;
     width: 50%;
     height: 75%;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 25% 25% 25% 25%;
+    background-image: url("https://i.stack.imgur.com/p9mUO.jpg") ;
   }
-/*
+
+  h1 {
+    color: #e1f5e9;
+  }
+
   .grid-container {
     display: grid;
-    grid-template-columns: auto auto auto;
-    background-color: #2196F3;
-    padding: 10px;
+    grid-template-columns: auto auto auto; 
   }
 
   .grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
+    display: grid;
+    border: 1px solid black;
+    margin-top: 10px;
   }
-  */
+
+.calculator {
+  font-size: large;
+  color: #f2d9d5;
+}
+
+#first-Number {
+  border-width: 3px;
+  margin: 5px;
+  padding: 3px;
+  border-radius: 10px;
+  width: 35%;
+  margin-left: 2px;
+  
+}
+
+#first-Number:hover {
+  background-color: bisque;
+}
+
+#second-Number {
+border-width: 3px;
+  margin: 5px;
+  padding: 3px;
+  border-radius: 10px;
+  width: 35%;
+  margin-left: 2px;
+}
+
+#second-Number:hover {
+  background-color: bisque;
+}
+
+button[type="submit"] {
+  font-size: 15px;
+  width: 20%;
+  padding: 3px;
+  border-radius: 10px;
+}
+
+button[type="submit"]:hover {
+  background-color: darkslategrey;
+  color: white;
+}
+
+button[type="reset"] {
+  font-size: 15px;
+  width: 20%;
+  padding: 3px;
+  border-radius: 10px;
+}
+
+button[type="reset"]:hover {
+  background-color: darkslategrey;
+  color: white;
+}
+
+#addition:hover {
+  background-color: darkslategrey;
+  color: white;
+ }
+
+ #addition {
+  font-size: 15px;
+  border-color: blue;;
+ }
+
+ #subtraction {
+  font-size: 15px;
+  border-color: blue;
+ }
+
+ #subtraction:hover {
+  background-color: darkslategrey;
+  color: white;
+ }
+
+ #multiplication {
+  font-size: 15px;
+  border-color: blue;
+ }
+
+ #multiplication:hover {
+  background-color: darkslategrey;
+  color: white;
+ }
+
+ #division {
+  font-size: 15px;
+  border-color: blue;
+ }
+
+ #division:hover {
+  background-color: darkslategrey;
+  color: white;
+ }
+
+ #modulus {
+  font-size: 15px;
+  border-color: blue;
+ }
+
+ #modulus:hover {
+  background-color: darkslategrey;
+  color: white;
+ }
+
+
+
+
 
 
  
