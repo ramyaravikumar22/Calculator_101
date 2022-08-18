@@ -90,7 +90,9 @@ const equals = () => {
     break;
     case "modulus": putResultInElement(modulus(firstNum, secondNum)) 
     break;
-    default: document.getElementById("result").innerHTML = `Choose an operation`
+    default: document.getElementById("result").innerHTML = (`Choose an operation`)
+    
+   //default: putResultInElement("Choose an operation")
   }
 }
 

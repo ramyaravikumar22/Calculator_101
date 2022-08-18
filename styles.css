@@ -1,8 +1,8 @@
 body {
-    margin: 20% auto;
-    width: 50%;
-    height: 75%;
-    background-image: url("https://i.stack.imgur.com/p9mUO.jpg") ;
+  margin: 10% auto;
+  width: 50%;
+  height: 75%;
+  background-image: url("https://i.stack.imgur.com/p9mUO.jpg");
   }
 
   h1 {
@@ -30,7 +30,7 @@ body {
   margin: 5px;
   padding: 3px;
   border-radius: 10px;
-  width: 35%;
+  width: 25%;
   margin-left: 2px;
   
 }
@@ -44,7 +44,7 @@ border-width: 3px;
   margin: 5px;
   padding: 3px;
   border-radius: 10px;
-  width: 35%;
+  width: 25%;
   margin-left: 2px;
 }
 
@@ -123,6 +123,10 @@ button[type="reset"]:hover {
 
  #modulus:hover {
   background-color: darkslategrey;
+  color: white;
+ }
+
+ #result {
   color: white;
  }
 
